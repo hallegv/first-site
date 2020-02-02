@@ -1,0 +1,135 @@
+body {
+  background: #e45853;
+}
+
+.fcheader {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: stretch;
+  background: center / cover no-repeat
+  url(images/bran575-019.jpeg);
+}
+
+.fcslogan {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.name {
+  font-size: 75px;
+  color: white;
+  font-family: "gill sans";
+}
+
+.slogan {
+  font-size: 20px;
+  color: white;
+  font-family: "gill sans";
+}
+
+.wrapper {
+  text-align: center;
+  padding: 100px;
+}
+
+.nav {
+  display: flex;
+  flex-shrink: 1;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.fcbuttons {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.logo {
+
+}
+
+.button {
+  background: #e45853;
+  color: white;
+  font-family: "gill sans";
+  font-size: 40px;
+  align-content:stretch;
+  height: 100px;
+  width: 500px;
+  float: center;
+  border: 0.5px;
+  transition-duration: 0.3s;
+}
+
+#hv:hover {
+  background: #e45853;
+  color: #E4A153;
+  font-family: "gill sans";
+  font-size: 60px;
+  height: 100px;
+  width: 500px;
+  float: left;
+  border: 0.5px;
+}
+
+#resume:hover {
+  background: #e45853;
+  color: #DFE453;
+  font-family: "gill sans";
+  font-size: 60px;
+  height: 100px;
+  width: 500px;
+  float: left;
+  border: 0.5px;
+}
+
+#github:hover {
+  background: #e45853;
+  color: #97E453;
+  font-family: "gill sans";
+  font-size: 60px;
+  height: 100px;
+  width: 500px;
+  float: left;
+  border: 0.5px;
+}
+
+#dance:hover {
+  background: #e45853;
+  color: #53E458;
+  font-family: "gill sans";
+  font-size: 60px;
+  height: 100px;
+  width: 500px;
+  float: left;
+  border: 0.5px;
+}
+
+#contact:hover {
+  background: #e45853;
+  color: #53E4A1;
+  font-family: "gill sans";
+  font-size: 60px;
+  height: 100px;
+  width: 500px;
+  float: left;
+  border: 0.5px;
+}
+
+.fcfooter {
+  display: flex;
+  height: 300px;
+  flex-shrink: 1;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 10px;
+  color: white;
+  font-family: "gill sans";
+}
