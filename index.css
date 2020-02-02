@@ -1,16 +1,24 @@
-body, .button, .button2 {
+body {
+  width: 100vw;
+  height: 100vh;
+  -webkit-animation: colorchange 10s;
+}
+
+.button, .button2 {
   -webkit-animation: colorchange 10s;
 }
 
 @-webkit-keyframes colorchange
 {
-  0%   {background: #000;}
-  50%   {background: #5853E4;}
+  0% {background: #000;}
+  50% {background: #5853E4;}
   75% {background: #53E458};
   100% {background: #e45853;}
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   background: #e45853;
 }
 
@@ -20,7 +28,6 @@ body {
   height: 100vh;
   align-items: stretch;
   background: center / cover no-repeat
-  url(images/bran575-019.jpeg);
 }
 
 .fcslogan {
