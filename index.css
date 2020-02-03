@@ -1,13 +1,14 @@
 
 
 body, .button, .button2 {
-  -webkit-animation: colorchange 10s;
+  -webkit-animation: colorchange 7s;
 }
 
 @-webkit-keyframes colorchange
 {
   0% {background: #000;}
-  50% {background: #FFF;}
+  50% {background: #EF5A65;}
+  75% {background: #2535F1;}
   100% {background: #5A65EF;}
 }
 
