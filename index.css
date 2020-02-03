@@ -6,8 +6,8 @@ body, .button, .button2 {
 
 @-webkit-keyframes colorchange
 {
-  0% {background: #5CA0AB;}
-  50% {background: #EC4040;}
+  0% {background: #000;}
+  50% {background: #FFF;}
   100% {background: #5A65EF;}
 }
 
