@@ -1,2 +1,2 @@
-# hallevo-site
+# hallegv/site
 Making a website for sh*ts n giggles (my very first one!).
