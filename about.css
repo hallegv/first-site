@@ -39,43 +39,50 @@ body {
   color: white;
   font-family: "times new roman", "gill sans";
   font-size: 35px;
+  font-weight: 100;
   align-content: stretch;
   height: 75px;
   width: 500px;
   float: center;
   border: 0.5px;
-  transition-duration: 0.7s;
+  transition-duration: 0.5s;
 }
 
 .button:hover {
   font-family: "times new roman", "gill sans";
-  width: 450px;
+  font-size: 40px;
+  font-weight: 400;
+  width: 100vh;
   float: left;
   border: 0.5px;
 }
 
 #home:hover {
-  background: #4D59F0;
+  background: #0013FF;
 }
 
 #about:hover {
-  background: #9A5AEF;
+  background: #BE1CFF;
 }
 
 #linkedin:hover {
-  background: #E45AEF;
+  background: #FF6100;
 }
 
 #github:hover {
-  background: #EF5AB0;
+  background: #5AF04E;
 }
 
 #vsco:hover {
-  background: #EF5A65;
+  background: #0A15BC;
 }
 
 #ig:hover {
-  background: #EF9A5A;
+  background: #FA2E0E;
+}
+
+#book:hover {
+  background: #F7CF2A;
 }
 
 .header {
@@ -89,8 +96,9 @@ body {
 .body {
   background: #5A65EF;
   color: white;
-  font-family: "helvetica", "gill sans";
+  font-family: "times new roman", "gill sans";
   font-size: 25px;
+  font-weight: 100;
   text-align: center;
 }
 
