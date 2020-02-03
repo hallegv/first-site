@@ -37,7 +37,7 @@ body {
 .button {
   background: #BE1CFF;
   color: white;
-  font-family: "times new roman", "gill sans";
+  font-family: "garamond", "gill sans";
   font-size: 35px;
   font-weight: 100;
   align-content: stretch;
@@ -49,9 +49,9 @@ body {
 }
 
 .button:hover {
-  font-family: "times new roman", "gill sans";
+  font-family: "garamond", "gill sans";
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 200;
   width: 100vh;
   float: left;
   border: 0.5px;
@@ -96,7 +96,7 @@ body {
 .body {
   background: #BE1CFF;
   color: white;
-  font-family: "times new roman", "gill sans";
+  font-family: "garamond", "gill sans";
   font-size: 25px;
   font-weight: 100;
   text-align: center;
@@ -111,5 +111,5 @@ body {
   align-items: center;
   font-size: 10px;
   color: white;
-  font-family: "times new roman", "gill sans";
+  font-family: "garamond", "gill sans";
 }

@@ -1,13 +1,13 @@
 
 
 body, .button, .button2 {
-  -webkit-animation: colorchange 10s;
+  -webkit-animation: colorchange 7s;
 }
 
 @-webkit-keyframes colorchange
 {
   0% {background: #000;}
-  50% {background: #EF5A65;}
+  50% {background: #BE1CFF;}
   75% {background: #2535F1;}
   100% {background: #5A65EF;}
 }
@@ -43,7 +43,7 @@ body {
 
 #slogan {
   font-size: 20px;
-  font-family: "helvetica", "gill sans";
+  font-family: "garamond", "gill sans";
   font-weight: 100;
   padding: 5px;
 }
@@ -76,7 +76,7 @@ body {
 .button {
   background: #5A65EF;
   color: white;
-  font-family: "times new roman", "gill sans";
+  font-family: "garamond", "gill sans";
   font-size: 35px;
   font-weight: 100;
   align-content: stretch;
@@ -88,9 +88,9 @@ body {
 }
 
 .button:hover {
-  font-family: "times new roman", "gill sans";
+  font-family: "garamond", "gill sans";
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 200;
   height: 100vh;
   float: left;
   border: 0.5px;
@@ -133,6 +133,6 @@ body {
   text-align: center;
   font-size: 10px;
   color: white;
-  font-family: "helvetica", "gill sans";
+  font-family: "garamond", "gill sans";
   transition-duration: 0.7s;
 }
