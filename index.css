@@ -9,7 +9,7 @@ body, .button, .button2 {
   0% {background: #000;}
   50% {background: #EF5A65;}
   75% {background: #2535F1;}
-  100% {background: #5A65EF;}
+  100% {background: #5A65EF;} 
 }
 
 body {
