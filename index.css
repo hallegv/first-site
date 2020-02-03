@@ -1,7 +1,7 @@
 
 
 body, .button, .button2 {
-  -webkit-animation: colorchange 7s;
+  -webkit-animation: colorchange 10s;
 }
 
 @-webkit-keyframes colorchange
