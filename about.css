@@ -1,5 +1,5 @@
 body {
-  background: #e45853;
+  background: #BD648A;
 }
 
 .fcheader {
@@ -34,85 +34,63 @@ body {
 }
 
 .button {
-  background: #e45853;
+  background: #BD648A;
   color: white;
-  font-family: "gill sans";
-  font-size: 40px;
+  font-family: "crimson text", "gill sans";
+  font-size: 35px;
   align-content: stretch;
-  height: 100px;
+  height: 75px;
   width: 500px;
   float: center;
   border: 0.5px;
   transition-duration: 0.3s;
 }
 
+.button:hover {
+  color: #BD648A;
+  font-family: "crimson text", "gill sans";
+  height: 82.5px;
+  width: 450px;
+  float: left;
+  border: 0.5px;
+}
+
 #home:hover {
-  background: #E4A153;
-  color: #E45853;
-  font-family: "gill sans";
-  font-size: 60px;
-  height: 100px;
-  width: 500px;
-  float: left;
-  border: 0.5px;
+  background: #EA3BAB;
 }
 
-#resume:hover {
-  background: #DFE453;
-  color: #e45853;
-  font-family: "gill sans";
-  font-size: 60px;
-  height: 100px;
-  width: 500px;
-  float: left;
-  border: 0.5px;
-}
-
-#github:hover {
-  background: #97E453;
-  color: #e45853;
-  font-family: "gill sans";
-  font-size: 60px;
-  height: 100px;
-  width: 500px;
-  float: left;
-  border: 0.5px;
+#about:hover {
+  background: #EE5E21;
 }
 
 #linkedin:hover {
-  background: #53E458;
-  color: #e45853;
-  font-family: "gill sans";
-  font-size: 60px;
-  height: 100px;
-  width: 500px;
-  float: left;
-  border: 0.5px;
+  background: #EEB221;
+}
+
+#github:hover {
+  background: #93EE21;
+}
+
+#vsco:hover {
+  background: #3B53EA;
 }
 
 #ig:hover {
-  background: #53E4A1;
-  color: #e45853;
-  font-family: "gill sans";
-  font-size: 60px;
-  height: 100px;
-  width: 500px;
-  float: left;
-  border: 0.5px;
+  background: #A13BEA;
 }
 
-.title {
-  background: #e45853;
+.header {
+  background: #BD648A;
   color: white;
-  font-family: "gill sans";
+  font-family: "crimson text", "gill sans";
   font-size: 60px;
   text-align: center;
 }
 
 .body {
-  background: #e45853;
+  background: #BD648A;
   color: white;
-  font-family: "gill sans";
+  font-family: "crimson text", "gill sans";
   font-size: 25px;
   text-align: center;
 }
@@ -126,5 +104,5 @@ body {
   align-items: center;
   font-size: 10px;
   color: white;
-  font-family: "gill sans";
+  font-family: "work sans", "gill sans";
 }
