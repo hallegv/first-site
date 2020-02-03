@@ -1,24 +1,20 @@
-body {
-  width: 100vw;
-  height: 100vh;
-  -webkit-animation: colorchange 7s;
-}
 
-.button, .button2 {
+
+body, .button, .button2 {
   -webkit-animation: colorchange 7s;
 }
 
 @-webkit-keyframes colorchange
 {
   0% {background: #000;}
-  50% {background: #5853E4;}
-  100% {background: #BD648A;}
+  50% {background: #F1EE25;}
+  100% {background: #5A65EF;}
 }
 
 body {
   width: 100vw;
   height: 100vh;
-  background: #BD648A;
+  background: #5A65EF;
 }
 
 .fcheader {
@@ -40,13 +36,13 @@ body {
 
 .button2 {
   color: white;
-  background: #BD648A;
-  font-family: "crimson text", "gill sans";
+  background: #5A65EF;
+  font-family: "times new roman", "gill sans";
 }
 
 #slogan {
   font-size: 25px;
-  font-family: "work sans", "gill sans";
+  font-family: "helvetica", "gill sans";
 }
 
 #name {
@@ -56,14 +52,9 @@ body {
 #name:hover {
   font-size: 100px;
   color: white;
-  background: #BD648A;
-  font-family: "crimson text", "gill sans";
-  transition-duration: 0.7s;
-}
-
-.wrapper {
-  text-align: center;
-  padding: 100px;
+  background: #5A65EF;
+  font-family: "times new roman", "gill sans";
+  transition-duration: 1s;
 }
 
 .nav {
@@ -80,49 +71,47 @@ body {
 }
 
 .button {
-  background: #BD648A;
+  background: #5A65EF;
   color: white;
-  font-family: "crimson text", "gill sans";
+  font-family: "times new roman", "gill sans";
   font-size: 35px;
   align-content: stretch;
   height: 75px;
   width: 500px;
   float: center;
   border: 0.5px;
-  transition-duration: 0.3s;
+  transition-duration: 0.7s;
 }
 
 .button:hover {
-  color: #BD648A;
-  font-family: "crimson text", "gill sans";
-  height: 82.5px;
-  width: 450px;
+  font-family: "times new roman", "gill sans";
+  height: 100vh;
   float: left;
   border: 0.5px;
 }
 
 #home:hover {
-  background: #EA3BAB;
+  background: #4D59F0;
 }
 
 #about:hover {
-  background: #EE5E21;
+  background: #9A5AEF;
 }
 
 #linkedin:hover {
-  background: #EEB221;
+  background: #E45AEF;
 }
 
 #github:hover {
-  background: #93EE21;
+  background: #EF5AB0;
 }
 
 #vsco:hover {
-  background: #3B53EA;
+  background: #EF5A65;
 }
 
 #ig:hover {
-  background: #A13BEA;
+  background: #EF9A5A;
 }
 
 .fcfooter {
@@ -134,5 +123,5 @@ body {
   text-align: center;
   font-size: 10px;
   color: white;
-  font-family: "work sans", "gill sans";
+  font-family: "helvetica", "gill sans";
 }

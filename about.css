@@ -1,5 +1,7 @@
 body {
-  background: #BD648A;
+  width: 100vw;
+  height: 100vh;
+  background: #5A65EF;
 }
 
 .fcheader {
@@ -8,7 +10,6 @@ body {
   height: 100vh;
   align-items: stretch;
   background: center / cover no-repeat
-  url(images/bran575-019.jpeg);
 }
 
 .fcslogan {
@@ -34,63 +35,61 @@ body {
 }
 
 .button {
-  background: #BD648A;
+  background: #5A65EF;
   color: white;
-  font-family: "crimson text", "gill sans";
+  font-family: "times new roman", "gill sans";
   font-size: 35px;
   align-content: stretch;
   height: 75px;
   width: 500px;
   float: center;
   border: 0.5px;
-  transition-duration: 0.3s;
+  transition-duration: 0.7s;
 }
 
 .button:hover {
-  color: #BD648A;
-  font-family: "crimson text", "gill sans";
-  height: 82.5px;
+  font-family: "times new roman", "gill sans";
   width: 450px;
   float: left;
   border: 0.5px;
 }
 
 #home:hover {
-  background: #EA3BAB;
+  background: #4D59F0;
 }
 
 #about:hover {
-  background: #EE5E21;
+  background: #9A5AEF;
 }
 
 #linkedin:hover {
-  background: #EEB221;
+  background: #E45AEF;
 }
 
 #github:hover {
-  background: #93EE21;
+  background: #EF5AB0;
 }
 
 #vsco:hover {
-  background: #3B53EA;
+  background: #EF5A65;
 }
 
 #ig:hover {
-  background: #A13BEA;
+  background: #EF9A5A;
 }
 
 .header {
-  background: #BD648A;
+  background: #5A65EF;
   color: white;
-  font-family: "crimson text", "gill sans";
+  font-family: "times new roman", "gill sans";
   font-size: 60px;
   text-align: center;
 }
 
 .body {
-  background: #BD648A;
+  background: #5A65EF;
   color: white;
-  font-family: "crimson text", "gill sans";
+  font-family: "helvetica", "gill sans";
   font-size: 25px;
   text-align: center;
 }
@@ -104,5 +103,5 @@ body {
   align-items: center;
   font-size: 10px;
   color: white;
-  font-family: "work sans", "gill sans";
+  font-family: "times new roman", "gill sans";
 }
