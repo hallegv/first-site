@@ -1,14 +1,14 @@
 
 
 body, .button, .button2 {
-  -webkit-animation: colorchange 7s;
+  -webkit-animation: colorchange 12s;
 }
 
 @-webkit-keyframes colorchange
 {
   0% {background: #000;}
-  50% {background: #BE1CFF;}
-  75% {background: #2535F1;}
+  50% {background: #EFE45A;}
+  75% {background: #EF5A65;}
   100% {background: #5A65EF;}
 }
 
@@ -76,7 +76,7 @@ body {
   background: #5A65EF;
   color: white;
   font-family: "monaco", "garamond";
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   align-content: stretch;
   height: 75px;
@@ -88,39 +88,40 @@ body {
 
 .button:hover {
   font-family: "monaco", "garamond";
-  font-size: 35px;
+  font-size: 27.5px;
   font-weight: 500;
-  height: 100vh;
+  height: 90px;
+  width: 550px;
   float: left;
   border: 0.5px;
 }
-
+/*
 #home:hover {
-  background: #5A65EF;
-}
+  background: #745AEF;
+} */
 
-#about:hover {
+/* #about:hover {
   background: #BE1CFF;
-}
+} */
 
 #linkedin:hover {
-  background: #FF6100;
+  background: #EF5AB0;
 }
 
 #github:hover {
-  background: #5AF04E;
+  background: #EFE45A;
 }
 
 #vsco:hover {
-  background: #0A15BC;
+  background: #5AEF9A;
 }
 
 #ig:hover {
-  background: #FA2E0E;
+  background: #EF9A5A;
 }
 
 #book:hover {
-  background: #F7CF2A;
+  background: #67C9EE;
 }
 
 .fcfooter {
