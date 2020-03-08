@@ -1,21 +1,21 @@
 
 
 body, .button, .button2 {
-  -webkit-animation: colorchange 12s;
+  -webkit-animation: colorchange 7s;
 }
 
 @-webkit-keyframes colorchange
 {
   0% {background: #000;}
-  50% {background: #EFE45A;}
-  75% {background: #EF5A65;}
-  100% {background: #5A65EF;}
+  50% {background: #BDB4CB;}
+  /* 75% {background: #EF5A65;} */
+  100% {background: #B4CBB7;}
 }
 
 body {
   width: 100vw;
   height: 100vh;
-  background: #5A65EF;
+  background: #B4CBB7;
 }
 
 .fcheader {
@@ -37,7 +37,7 @@ body {
 
 .button2 {
   color: white;
-  background: #5A65EF;
+  background: #B4CBB7;
 }
 
 #slogan {
@@ -73,7 +73,7 @@ body {
 }
 
 .button {
-  background: #5A65EF;
+  background: #B4CBB7;
   color: white;
   font-family: "monaco", "garamond";
   font-size: 25px;
@@ -94,6 +94,8 @@ body {
   width: 550px;
   float: left;
   border: 0.5px;
+  background: #BDB4CB;
+  background-color: rgba(189, 180, 203, .7);
 }
 /*
 #home:hover {
@@ -104,7 +106,7 @@ body {
   background: #BE1CFF;
 } */
 
-#linkedin:hover {
+/* #linkedin:hover {
   background: #EF5AB0;
 }
 
@@ -122,7 +124,7 @@ body {
 
 #book:hover {
   background: #67C9EE;
-}
+} */
 
 .fcfooter {
   display: flex;
