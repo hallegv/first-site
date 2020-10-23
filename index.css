@@ -1,20 +1,20 @@
 body,
 .button,
 .button2 {
-  -webkit-animation: colorchange 3s;
+  -webkit-animation: colorchange 4s;
 }
-/* 
+
 @-webkit-keyframes colorchange {
   0% {
     background: #000;
   }
   50% {
-    background: #002118;
+    background: #726da8;
   }
   100% {
-    background: #335954;
+    background: #db5461;
   }
-} */
+}
 
 body {
   width: 100vw;
