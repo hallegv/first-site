@@ -1,20 +1,25 @@
-
-
-body, .button, .button2 {
-  -webkit-animation: colorchange 5s;
+body,
+.button,
+.button2 {
+  -webkit-animation: colorchange 3s;
 }
-
-@-webkit-keyframes colorchange
-{
-  0% {background: #000;}
-  50% {background: #002118;}
-  100% {background: #335954;}
-}
+/* 
+@-webkit-keyframes colorchange {
+  0% {
+    background: #000;
+  }
+  50% {
+    background: #002118;
+  }
+  100% {
+    background: #335954;
+  }
+} */
 
 body {
   width: 100vw;
   height: 100vh;
-  background: #335954;
+  background: #db5461;
 }
 
 .fcheader {
@@ -22,7 +27,7 @@ body {
   flex-direction: column;
   height: 100vh;
   align-items: stretch;
-  background: center / cover no-repeat
+  background: center / cover no-repeat;
 }
 
 .fcslogan {
@@ -36,7 +41,7 @@ body {
 
 .button2 {
   color: white;
-  background: #335954;
+  background: #db5461;
 }
 
 #slogan {
@@ -47,15 +52,16 @@ body {
 }
 
 #name {
+  color: #ffeaee;
   font-size: 80px;
   font-weight: 700;
   font-family: "helvetica", "garamond";
 }
 
 #name:hover {
-  font-size: 88px;
-  color: white;
-  transition-duration: 1s;
+  font-size: 90px;
+  color: #ffeaee;
+  transition-duration: 1.5s;
 }
 
 .nav {
@@ -73,7 +79,7 @@ body {
 }
 
 .button {
-  background: #335954;
+  background: #db5461;
   color: white;
   font-family: "helvetica", "garamond";
   font-size: 25px;
@@ -84,34 +90,44 @@ body {
   float: center;
   border: 0.5px;
   transition-duration: 0.7s;
+  border-radius: 8px;
 }
 
 .button:hover {
   font-family: "helvetica", "garamond";
-  font-size: 30px;
+  font-size: 33px;
   font-weight: 300;
-  height: 82.5;
-  width: 550px;
   float: left;
   border: 0.5px;
-  background: #BDB4CB;
-  background-color: rgba(189, 180, 203, .7);
+  background: #bdb4cb;
+  background-color: rgba(189, 180, 203, 0.7);
+  border-radius: 8px;
+  opacity: 0.8;
 }
 
 #linkedin:hover {
-  background: #ef497e;
+  background: #4b5043;
+  height: 20vh;
 }
 
 #github:hover {
-  background: #c44196;
+  background: #9bc4bc;
+  height: 40vh;
 }
 
 #vsco:hover {
-  background: #483b77;
+  background: #d3ffe9;
+  height: 60vh;
 }
 
 #ig:hover {
-  background: #3c3a5c;
+  background: #8ddbe0;
+  height: 80vh;
+}
+
+#spotify:hover {
+  background: #c16200;
+  height: 100vh;
 }
 
 .fcfooter {
@@ -125,4 +141,9 @@ body {
   font-weight: 200;
   color: white;
   font-family: "helvetica", "garamond";
+}
+
+.fcfooter:hover {
+  font-size: 15px;
+  transition-duration: 2s;
 }
