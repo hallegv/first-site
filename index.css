@@ -1,6 +1,7 @@
 body,
 .button,
-.button2 {
+.button2,
+#trike {
   -webkit-animation: colorchange 4s;
 }
 
@@ -146,4 +147,36 @@ body {
 .fcfooter:hover {
   font-size: 15px;
   transition-duration: 2s;
+}
+
+#trike {
+  background: #db5461;
+  color: white;
+  font-family: "comic sans ms", "helvetica", "garamond";
+  font-size: 10px;
+  font-weight: 200;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 200px;
+  width: 100vw;
+  float: center;
+  border: 0.5px;
+  transition-duration: 1s;
+  border-radius: 8px;
+}
+
+#trike:hover {
+  font-family: "comic sans ms", "helvetica", "garamond";
+  font-size: 100px;
+  font-weight: 300;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  border: 0.5px;
+  background: #db5461;
+  border-radius: 8px;
+  opacity: 0.8;
 }
