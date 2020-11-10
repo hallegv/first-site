@@ -1,6 +1,6 @@
 /*~*~*~*~* OPENING ANIMATION *~*~*~*~*/
 
-body,
+/* body,
 .button,
 .button2,
 #trike {
@@ -17,7 +17,7 @@ body,
   100% {
     background: #db5461;
   }
-}
+} */
 
 /*~*~*~*~* BODY & HEADER *~*~*~*~*/
 
@@ -44,7 +44,6 @@ body {
 }
 
 .fcbuttons {
-  margin: 0;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -63,7 +62,7 @@ body {
   float: center;
   border: 0.5px;
   transition-duration: 0.7s;
-  border-radius: 8px;
+  border-radius: 10px 50px 50px 50px;
 }
 
 .button:hover {
@@ -73,33 +72,30 @@ body {
   float: left;
   border: 0.5px;
   background: #bdb4cb;
-  border-radius: 8px;
+  border-radius: 10px 50px 50px 50px;
   opacity: 0.8;
-}
-
-#linkedin:hover {
-  background: #4b5043;
+  width: 50vw;
   height: 20vh;
 }
 
+#linkedin:hover {
+  background: #dbba53;
+}
+
 #github:hover {
-  background: #9bc4bc;
-  height: 40vh;
+  background: #52dacd;
 }
 
 #vsco:hover {
-  background: #d3ffe9;
-  height: 60vh;
+  background: #60da52;
 }
 
 #ig:hover {
-  background: #8ddbe0;
-  height: 80vh;
+  background: #db53d5;
 }
 
 #spotify:hover {
-  background: #c16200;
-  height: 100vh;
+  background: #8952da;
 }
 
 /*~*~*~*~* NAME *~*~*~*~*/
