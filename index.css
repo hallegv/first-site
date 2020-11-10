@@ -1,3 +1,5 @@
+/*~*~*~*~* OPENING ANIMATION *~*~*~*~*/
+
 body,
 .button,
 .button2,
@@ -17,6 +19,8 @@ body,
   }
 }
 
+/*~*~*~*~* BODY & HEADER *~*~*~*~*/
+
 body {
   width: 100vw;
   height: 100vh;
@@ -31,39 +35,7 @@ body {
   background: center / cover no-repeat;
 }
 
-.fcslogan {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-grow: 1;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0);
-}
-
-.button2 {
-  color: white;
-  background: #db5461;
-}
-
-#slogan {
-  font-size: 20px;
-  font-family: "helvetica";
-  font-weight: 100;
-  padding: 5px;
-}
-
-#name {
-  color: #ffeaee;
-  font-size: 80px;
-  font-weight: 700;
-  font-family: "helvetica", "garamond";
-}
-
-#name:hover {
-  font-size: 90px;
-  color: #ffeaee;
-  transition-duration: 1.5s;
-}
+/*~*~*~*~* NAVBAR *~*~*~*~*/
 
 .nav {
   display: flex;
@@ -101,7 +73,6 @@ body {
   float: left;
   border: 0.5px;
   background: #bdb4cb;
-  background-color: rgba(189, 180, 203, 0.7);
   border-radius: 8px;
   opacity: 0.8;
 }
@@ -131,6 +102,44 @@ body {
   height: 100vh;
 }
 
+/*~*~*~*~* NAME *~*~*~*~*/
+
+.fcslogan {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.button2 {
+  color: white;
+  background: #db5461;
+}
+
+#slogan {
+  font-size: 20px;
+  font-family: "helvetica";
+  font-weight: 100;
+  padding: 5px;
+}
+
+#name {
+  color: #ffeaee;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: "helvetica", "garamond";
+}
+
+#name:hover {
+  font-size: 90px;
+  color: #ffeaee;
+  transition-duration: 1.5s;
+}
+
+/*~*~*~*~* FOOTER *~*~*~*~*/
+
 .fcfooter {
   display: flex;
   height: 300px;
@@ -148,6 +157,8 @@ body {
   font-size: 15px;
   transition-duration: 2s;
 }
+
+/*~*~*~*~* GET ON THE TRIKE *~*~*~*~*/
 
 #trike {
   background: #db5461;
