@@ -50,7 +50,7 @@ body {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.button {
+.nav > button {
   background: #db5461;
   color: white;
   font-family: "helvetica", "garamond";
@@ -65,7 +65,7 @@ body {
   border-radius: 10px 50px 50px 50px;
 }
 
-.button:hover {
+.nav:hover > button:hover {
   font-family: "helvetica", "garamond";
   font-size: 33px;
   font-weight: 300;
@@ -136,7 +136,7 @@ body {
 
 /*~*~*~*~* FOOTER *~*~*~*~*/
 
-.fcfooter {
+.fcfooter > p {
   display: flex;
   height: 25vh;
   flex-shrink: 1;
