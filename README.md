@@ -1,4 +1,5 @@
-# hallegv/site
+## my first personal website
+### well, first website ever
 
 I made this simple vanilla js site in a couple hours when I was in my first semester of CS. Planning on making an updated site with React soon but for now this does the trick!
 
